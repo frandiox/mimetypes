@@ -56,8 +56,8 @@
             }
         }
 
-        // Return all
-        return mimetypesList[mimeType];
+        // use the first one
+        return mimetypesList[mimeType][0];
     }
 
     /**
